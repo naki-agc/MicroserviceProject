@@ -7,7 +7,7 @@ using MongoDB.Driver;
 
 namespace FreeCources.Services.Catalog.Services
 {
-    internal class CourceService:ICourceService
+    public class CourceService:ICourceService
     {
         private readonly IMongoCollection<Cource> _courceCollection;
         private readonly IMongoCollection<Category> _categoryCollection;

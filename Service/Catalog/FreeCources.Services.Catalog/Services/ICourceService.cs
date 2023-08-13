@@ -3,7 +3,7 @@ using FreeCources.Services.Catalog.Dtos;
 
 namespace FreeCources.Services.Catalog.Services
 {
-     interface ICourceService
+    public interface ICourceService
     {
 
         Task<Response<List<CourceDto>>> GetAllAsync();
